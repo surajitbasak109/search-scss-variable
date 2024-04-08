@@ -48,7 +48,7 @@ export default defineComponent({
             searchPropValue: '',
             searchCostValue: '',
             lsKey: 'ssv.textarea-value',
-            searchObject: {},
+            searchObject: {} as { [index: string]: any },
         }
     },
     methods: {
